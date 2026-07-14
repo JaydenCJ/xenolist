@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 720 430" font-family="Menlo, Consolas, monospace" font-size="14">
+  <rect width="720" height="430" rx="10" fill="#101418"/>
+  <circle cx="24" cy="22" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="22" r="6" fill="#27c93f"/>
+  <text x="360" y="27" fill="#8b949e" text-anchor="middle" font-size="12">xenolist — every piece of external code your repo executes, one report</text>
+  <g fill="#c9d1d9">
+    <text x="24" y="62"><tspan fill="#7ee787">$</tspan> xenolist scan .</text>
+    <text x="24" y="92"><tspan fill="#79c0ff">xenolist scan</tspan> — demo</text>
+    <text x="24" y="112" fill="#8b949e">files scanned: 6 (1 workflow, 1 dockerfile, 1 compose file, …)</text>
+    <text x="24" y="146">external code sources: <tspan fill="#f778ba">18</tspan>   (3 pinned · 7 tagged · <tspan fill="#f778ba">8 floating</tspan>)</text>
+    <text x="24" y="180" fill="#d2a8ff">by kind                  sources   floating</text>
+    <text x="24" y="202">  <tspan fill="#7ee787">package-exec</tspan>                 5          2</text>
+    <text x="24" y="224">  <tspan fill="#7ee787">container-image</tspan>              4          1</text>
+    <text x="24" y="246">  <tspan fill="#7ee787">pipe-to-shell</tspan>                4          3</text>
+    <text x="24" y="268">  <tspan fill="#7ee787">github-action</tspan>                3          1</text>
+    <text x="24" y="290">  <tspan fill="#7ee787">remote-download</tspan>              2          1</text>
+    <text x="24" y="324" fill="#d2a8ff">floating sources (8)</text>
+    <text x="24" y="346">  ci.yml:18                github-action    <tspan fill="#f778ba">octo-org/…/release.yml@main</tspan></text>
+    <text x="24" y="368">  Dockerfile:5             container-image  <tspan fill="#f778ba">alpine:latest</tspan></text>
+    <text x="24" y="390">  Makefile:2               package-exec     <tspan fill="#f778ba">eslint</tspan></text>
+    <text x="24" y="412">  ci.yml:14                pipe-to-shell    <tspan fill="#f778ba">https://get.example.test/install.sh</tspan></text>
+  </g>
+</svg>
